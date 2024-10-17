@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
-void main(){
+void main() {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget{
-
+class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
   @override
@@ -13,10 +12,12 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Column( // Use a Column to hold both Row and Column
+          child: Column(
+            // Use a Column to hold both Row and Column
             mainAxisSize: MainAxisSize.min,
             children: [
-              Row( // First Row widget
+              Row(
+                // First Row widget
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Container(
@@ -28,7 +29,8 @@ class MyApp extends StatelessWidget{
                   const Text("hello world"),
                 ],
               ),
-              Column( // Second Column widget
+              Column(
+                // Second Column widget
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Container(
