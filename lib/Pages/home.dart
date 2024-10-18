@@ -12,8 +12,9 @@ class HomePage extends StatelessWidget {
           color: Colors.blue,
           fontSize: 34,
           decoration: TextDecoration.underline,
-          decorationColor: Colors.cyan, 
+          decorationColor: Colors.red, 
         ),
+        textAlign: TextAlign.left,
         ),
       ),
     );
