@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:learning_1/Pages/home.dart';
 
 void main(){
   runApp(MyApp());
