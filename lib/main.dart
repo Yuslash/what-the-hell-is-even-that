@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main(){
+void main() {
   runApp(MyApp());
 }
 
@@ -8,38 +8,26 @@ class MyApp extends StatefulWidget {
   const MyApp({ Key? key }) : super(key: key);
 
   @override
-  _MainState createState() => _MainState();
+  _MyAppState createState() => _MyAppState();
 }
 
-class _MainState extends State<MyApp> {
-  
-  int value = 1;
-
-  void clickMe() {
-    setState(() {
-      value += 1;
-    });
-  }
-
+class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
+    return const MaterialApp(
+
       home: Scaffold(
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Text("$value"),
+            children: [
+              Text("Smooth Operatoorrrrrrrrrr"),
+              Text("Smoooooooothhhh operatorrrrrrr.........")
             ],
-            
           ),
         ),
-        floatingActionButton: FloatingActionButton(
-          child: Icon(Icons.add),
-          onPressed: clickMe,
-        ),
       ),
+        
     );
   }
 }
