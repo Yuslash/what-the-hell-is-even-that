@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learning_1/Pages/TitleSection.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,8 +24,12 @@ class MyApp extends StatelessWidget {
           title: Text(appTitle),
         ),
       
-        body: const Center(
-          child: Text("Hello world"),
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              TitleSection(name: "Sibikrishna Logarajan", location: "Thiruvarur ThiruthuraiPoondi")
+            ],
+          ),
         ),
 
       ),
