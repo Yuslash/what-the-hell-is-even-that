@@ -22,7 +22,13 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text(appTitle),
         ),
+      
+        body: const Center(
+          child: Text("Hello world"),
+        ),
+
       ),
+  
     );
   }
 
