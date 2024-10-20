@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
           title: Text(appTitle),
         ),
       
-        body: SingleChildScrollView(
+        body: const SingleChildScrollView(
           child: Column(
             children: [
               TitleSection(name: "Sibikrishna Logarajan", location: "Thiruvarur ThiruthuraiPoondi")
