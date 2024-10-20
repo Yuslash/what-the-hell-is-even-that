@@ -3,6 +3,7 @@ import 'package:learning_1/Pages/ButtonSection.dart';
 import 'package:learning_1/Pages/ImageSection.dart';
 import 'package:learning_1/Pages/TextSection.dart';
 import 'package:learning_1/Pages/TitleSection.dart';
+import 'package:learning_1/Pages/TryOwnSection.dart';
 
 void main() {
   runApp(MyApp());
@@ -41,6 +42,9 @@ class MyApp extends StatelessWidget {
                     'degrees Celsius in the summer. Activities enjoyed here '
                     'include rowing, and riding the summer toboggan run.',
               ),
+              TryOwnSection(someText: "Hi this is Yulash Crimson Connor Who is trying to be "
+                "better and good developer i hope will archive what i dreaming",
+              )
             ],
           ),
         ),
