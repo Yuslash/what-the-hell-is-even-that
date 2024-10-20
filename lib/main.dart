@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learning_1/Pages/ButtonSection.dart';
 import 'package:learning_1/Pages/TitleSection.dart';
 
 void main() {
@@ -27,7 +28,8 @@ class MyApp extends StatelessWidget {
         body: const SingleChildScrollView(
           child: Column(
             children: [
-              TitleSection(name: "Sibikrishna Logarajan", location: "Thiruvarur ThiruthuraiPoondi")
+              TitleSection(name: "Sibikrishna Logarajan", location: "Thiruvarur ThiruthuraiPoondi"),
+              ButtonSection()
             ],
           ),
         ),
